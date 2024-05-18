@@ -14,7 +14,7 @@ config({ path: "./config/config.env" });
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "https://kartjobs.netlify.app/",
+  origin: "https://kartjobs.netlify.app",
   methods: ["GET", "POST", "DELETE", "PUT"],
   credentials: true,
 };
